@@ -1351,10 +1351,10 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
-"react-creative-cursor@^0.3.0":
-  "integrity" "sha512-iihb7w9lc9iA9sN/kz9ytpVxZk9F0w8wP+mspo/UPzGRT9Uejxf3pl3dJYLjNXHSVXdQGrmI4uVtz2jjkMw5Jw=="
-  "resolved" "https://registry.npmjs.org/react-creative-cursor/-/react-creative-cursor-0.3.0.tgz"
-  "version" "0.3.0"
+"react-creative-cursor@^0.5.0":
+  "integrity" "sha512-j2D+HUUFCRM7lkNebToWhb6ENd2ebW3RoMs1jPMYtBOS0KagUT0WBp5GdA5hVKhSWtl9oSeiN/GTLdUu7a4GmQ=="
+  "resolved" "https://registry.npmjs.org/react-creative-cursor/-/react-creative-cursor-0.5.0.tgz"
+  "version" "0.5.0"
   dependencies:
     "gsap" "^3.10.3"
     "rollup-plugin-scss" "^3.0.0"
