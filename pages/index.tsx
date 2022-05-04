@@ -16,7 +16,14 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to{' '}
+          <a
+            href="https://nextjs.org"
+            data-cursor-size="200px"
+            data-cursor-background-image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPcAAADMCAMAAACY78UPAAAAeFBMVEX///8AAADp6elGRkbj4+P09PTx8fHLy8twcHAnJyf8/Pzs7Oz29vYsLCzFxcWZmZmsrKyKioplZWXY2Ng9PT2np6eQkJB2dnZgYGDd3d2Dg4NpaWlCQkK3t7eqqqqYmJhXV1dPT0+9vb0LCws1NTXS0tIbGxsiIiLl03DCAAAEcElEQVR4nO2c2XriMAxGrQBpy1b2tQsUmL7/G44MhZJESvLNlMqt/3NFs4BOojiy49Q5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgnUusAbBhbB2DDOM7T3bmzjsCGR+sAbBi2rSMwYXCwjsCE5co6AhPaE+sIbHhqWkdgwjDOtrzfs47AhJRa1iGYQM/WEZgw2lhHYMKUoizUxhRld6RLc+sQTJiQdQQmrCjKMZZnmlmHUMGeSu+yCWl03IFooO3FhdqLuiuV/+a30OAguvrqMm/3SpSIez345YPgvTf66kRT+9hZLMDnNM0valJgNWuDVr2So1/u3SIShhXeqFFY1izNKgMaNFuWxFTuzYrF6iQlKo4bB3i+h25IG211hTendKEanUjpE6Q3t0Napld5uz+0yS4Y0kLYLExvPapKb94104jdFRPgY7MAvd0jbeXVld7c7aKrMbSucMF7AvXmi1IuQaq93Zber/+QuyOhenekRtjV8uZTfHF9pJ28UajeXF2JmV7D21/S/dOnMWndkWC9OUOlTK/jzZ2vjwKAzl9WIFzvlpjptbxd75QsC7ls9QTofe4xSuVlTW/e6vHYEVG3DdibT9dLYXU9b6/cTKjYHbkQsnf72LnMkijtfJ4F7SdSvpwJ2Zsb5kLk7P0g8J6vRds7Kj1CQXsLHWdt3OEp/z1DonXJz4Tt7Xb5TGfvZSstkpcY+4Pxpv9M4N7j/Ims2a5x0zCflyV64N6crtlMr+m98PXpjvTJDaF7u/dsptfz5tvY0rkl6aPHAXq/Zv5uZk9aLe/msWzxvRLSJi8F783BX2d6Le/38/1vKw86uJ/gzV3xK9M63vPLuCR3SaVBJvcjvDvXmV7D+3pMta89QpG9O/54HfoW03aL3u6FPmchVXunmTH0lbK97L0b+G7gvqSuvxkNKk612n7GXu09yXY+e/QgbSV79wZutfFVw/dfA5J3i/bnj5Xes9wGifgIRfe+L+nM3BLJ2z1fFlZ5HwqP+AaXUadrVG9esZ0aTIQRvbn++rCt8Ob6dFTcV3jspHpzWzhU7343RPZunzO9wnsjjZ+S/Fww593tHr2XXlnKkBsje/MN6bS43Ht6rE/zjKn4nTnvw5Tro3aHb4CTjb9Y6vQBvhbFm4uR41OQRBiDudAUBD2z4nByzntF/kbgr5G0R+q0iVuiebvT7Ym9n+9EEv9MUGmMnyg/m0m6vjuneiX9/pPt/FFXvA/Hgkaf5zFwa/W5eVqoV4OrU4drbZRk5TM9Hd3LrO+Wi7U6I7G/XmQzPRmNwprvUMJerLx+P2nwk9BuRJ/ifDvErZSnur+eh0gzvSXVYzHQj3M6NV/icb7nyMVolBPJ/V3cOgIj+nG+KMJd0jjf4HZOmcv46+nE2qa/RfkKHDOL8pVHF+3/InFJrG364ccME30xsZ7wtslwbwDE2qQDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw3/wFtIokRtKmhkcAAAAASUVORK5CYII="
+          >
+            Next.js!
+          </a>
         </h1>
 
         <p className={styles.description}>
@@ -24,22 +31,34 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a data-cursor-magnetic href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
+          <a
+            data-cursor-stick="#stick-item"
+            data-cursor-exclusion
+            data-cursor-size="80px"
+            href="https://nextjs.org/learn"
+            className={styles.card}
+          >
+            <h2 id="stick-item">Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-          <a href="https://github.com/vercel/next.js/tree/canary/examples" className={styles.card}>
+          <a
+            data-cursor-color="#0070f3"
+            href="https://github.com/vercel/next.js/tree/canary/examples"
+            className={styles.card}
+          >
             <h2>Examples &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
+            data-cursor-text="Deploy"
+            data-cursor-size="80px"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -56,7 +75,7 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <span className={styles.logo}>
+          <span className={styles.logo} data-cursor-exclusion>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
